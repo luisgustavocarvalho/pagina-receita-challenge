@@ -9,6 +9,7 @@ Este projeto consiste em uma landing page para uma receita de omelete simples, d
 <p><b>CSS3:</b> Estilização e layout responsivo.</p>
 
 <h2>Preview do Site</h2>
+<img src="https://github.com/luisgustavocarvalho/pagina-receita-challenge/blob/main/Preview%20Site.jpeg?raw=true">
 
 <h2>🎯 Funcionalidades</h2>
 <ul>
