@@ -9,7 +9,6 @@ Este projeto consiste em uma landing page para uma receita de omelete simples, d
 <p><b>CSS3:</b> Estilização e layout responsivo.</p>
 
 <h2>Preview do Site</h2>
-![Design preview for the Recipe page coding challenge](./preview.jpg)
 
 <h2>🎯 Funcionalidades</h2>
 <ul>
@@ -36,7 +35,7 @@ Este projeto consiste em uma landing page para uma receita de omelete simples, d
 Não é necessária a instalação de bibliotecas adicionais ou configuração de ambiente. Basta abrir o arquivo e começar a usar.
 
 Também é possível acessando o link abaixo:
-https://luisgustavocarvalho.github.io/currency-convert-javascript/
+https://luisgustavocarvalho.github.io/pagina-receita-challenge/
 
 <h2>🎨 Estilização</h2>
 <ul>
