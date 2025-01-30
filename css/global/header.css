@@ -1,0 +1,119 @@
+/* FUNDO DA PÁGINA */
+.background-header {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 16px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 375px) {
+  .background-header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 750px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NOME E RESUMO DO OMELETE */
+.first-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* PARTE DE PREPARAÇÃO */
+.second-container {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.topics-preparation li {
+  display: flex;
+  align-items: center;
+}
+
+.topics-preparation {
+  padding-left: 20px;
+}
+
+.topics-preparation > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(332, 51%, 32%);
+  margin-right: 30px;
+}
+
+/* PARTE DE INGREDIENTES */
+.third-container {
+  margin-bottom: 30px;
+}
+
+.topics-ingredients li {
+  display: flex;
+  align-items: center;
+}
+
+.topics-ingredients > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(14, 45%, 36%);
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+/* PARTE DE INSTRUÇÃO */
+.fourth-container {
+  margin-bottom: 30px;
+}
+
+.topics-instructions li {
+  margin-left: -15px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.topics-instructions p {
+  margin-left: 15px;
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+/* PARTE DE NUTRIÇÃO */
+.nutrition-table {
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Outfit";
+}
+
+.nutrition-table td {
+  padding: 12px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  text-align: left;
+  font-size: 16px;
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-table tr td:first-child {
+  color: hsl(30, 10%, 34%);
+}
+
+.values-nutrition {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
